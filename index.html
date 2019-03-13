@@ -15,13 +15,8 @@
     
       gtag('config', 'UA-135704236-1');
     </script>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script>
-      // var tripPrice = document.getElementsByClassName("price")[0].innerText;  
-      // console.log(tripPrice)
-      dataLayer = [];
-    </script>
+    <!-- <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> -->
   </head>
 
   <body>
@@ -29,10 +24,10 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Hello Plunker!</h1>
     
-    <a class="locoPlace" href="second.html" onclick="dataLayer.push({
+    <button class="locoPlace" href="" onclick="dataLayer.push({
       'tripCategory': 'skiing',
       'tripLocation': 'Canada'
-    })">Second Page</a>
+    })">Second Page</button>
     <a class="locoPlace" href="second.html" onclick="dataLayer.push({
       'tripCategory': 'snowboarding',
       'tripLocation': 'USA'
@@ -53,5 +48,11 @@
     <p>fsfsafsdsfs</p>
 
   </body>
+
+  <script>
+      // var tripPrice = document.getElementsByClassName("price")[0].innerText;  
+      // console.log(tripPrice)
+      dataLayer = [];
+    </script>
 
 </html>
