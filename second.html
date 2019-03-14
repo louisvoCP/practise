@@ -17,11 +17,6 @@
     </script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <script>
-      var tripPrice = document.getElementsByClassName("price")[0].innerText;  
-      console.log(tripPrice)
-      dataLayer = [{'tripValue': tripPrice}];
-    </script>
     <!-- <script>
         // var tripPrice = document.getElementsByClassName("price")[0].innerText;  
         // console.log(tripPrice)
@@ -40,5 +35,10 @@
     <button><a href="index.html">BACK</a></button>
 
   </body>
+  <script>
+    var tripPrice = document.getElementsByClassName("price")[0].innerText;  
+    console.log(tripPrice)
+    dataLayer = [{'tripValue': tripPrice}];
+  </script>
 
 </html>
